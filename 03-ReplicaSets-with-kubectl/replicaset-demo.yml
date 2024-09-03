@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: my-helloworld-rs-test
+  name: my-helloworld-rs
   labels:
     app: my-helloworld
 spec:
-  replicas: 6
+  replicas: 5
   selector:
     matchLabels:
       app: my-helloworld
