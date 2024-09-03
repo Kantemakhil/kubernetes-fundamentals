@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: my-helloworld-rs
+  name: my-helloworld-rs-test
   labels:
     app: my-helloworld
 spec:
